@@ -1,8 +1,6 @@
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
 func simpleArraySum(ar []int32) int32 {
 	var sum int32
@@ -16,6 +14,5 @@ func simpleArraySum(ar []int32) int32 {
 
 func main() {
 	ar := []int32{1, 2, 3, 4, 10, 11}
-	result := simpleArraySum(ar)
-	fmt.Println(result)
+	fmt.Println(simpleArraySum(ar))
 }
